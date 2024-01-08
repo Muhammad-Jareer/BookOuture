@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+} 
+html, body {
+    background-color: #f9fcfb;
+}
+p {
+    color: #afafaf
+}
+a {
+    color: #06b697;
+    font-weight: bold;
+    text-decoration: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+.header {
+    color: white;
+}
+/* header top section  */
+.header-text {
+    color: white;
+}
+.header-top {
+    padding: 3px 0;
+    background-color: #afafaf;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    
+}
+.handles span {
+    color: white;
+}
+.fas, .fab {
+    padding: 3px;
+    border-radius: 50%;
+    background: #afafaf;
+    color: white;
+}
+
+/* heder mid section  */
+.heading {
+    background-color: #dd0000;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    padding: 20px;
+}
+.heading h1 {
+    text-align: center;
+    padding-left: 190px;
+    color: white;
+    font-family: 'Lobster', cursive;
+}
+.heading a {
+    text-decoration: none;
+    color: white;
+    padding-top: 10px;
+}
+
+/* header navbar section  */
+.nav-bar {
+    border-top: 1px solid tomato;
+    text-align: center;
+    background-color: #dd0000;
+}
+.nav-bar ul {
+    display: block;
+}
+.nav-bar li {
+    display: inline-block;
+    padding: 10px 17px;
+}
+.nav-bar li a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+/* Article Section  */
+.article {
+    display: grid;
+    width: 70%;
+    margin: 18px auto 0px;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    padding: 20px;
+    border-bottom: 1px dashed #afafaf;
+}
+.left-article img{
+    width: 400px;
+}
+.article h2 {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+.article span {
+    color: #06b697;
+    font-weight: bolder;
+}
+.article a {
+    background-color: #06b697;
+    color: white;
+    padding: 6px 12px;
+    text-decoration: none;
+    border: none;
+}
+.right-article {
+    color: #afafaf;
+}
+
+ /* Services Section   */
+ .services {
+    border-top: 1px dashed #afafaf;
+    border-bottom: 1px dashed #afafaf;
+    display: grid;
+    width: 70%;
+    margin: 3px auto;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    padding-bottom: 40px;
+ }
+.fa-solid {
+    font-size: 30px;
+    padding: 40px 0px 20px;
+}
+.services h3 {
+    font-weight: 100;
+}
+.services span {
+    color: #06b697;
+    font-weight: bolder;
+}
+.services p {
+    padding: 0 20px;
+    color: #afafaf;
+}
+.services a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* Reviews Section  */
+.reviews {
+    border-top: 1px dashed #afafaf;
+    width: 70%;
+    margin: 3px auto;
+    text-align: center;
+    padding-bottom: 40px;
+    border-bottom: 1px dashed #afafaf;
+}
+.reviews h1 {
+    color: black;
+    font-weight: 100;
+    text-transform: uppercase;
+    padding: 20px 0 40px;
+} 
+.reviews img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 1px solid #06b697;
+    margin-bottom: 20px;
+} 
+.reviews p {
+    color: #afafaf;
+}
+.reviews span {
+    color: #06b697;
+    font-weight: bold;
+}
+
+/* Blog Section  */
+.blog {
+    border-top: 1px dashed #afafaf;
+    border-bottom: 1px dashed #afafaf;
+    width: 70%;
+    margin: 3px auto;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.blog h1 {
+    text-transform: uppercase;
+    padding: 40px 0px 40px;
+}
+.blog p {
+    text-transform: uppercase;
+}
+
+/* Feedback section  */
+.feedback {
+    border-top: 1px dashed #afafaf;
+    border-bottom: 1px dashed #afafaf;
+    width: 70%;
+    margin: 3px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: left;
+    padding: 40px 20px 80px;
+}
+.box1, .box2, .box3 {
+    padding-right: 40px;
+}
+.box1 img {
+    border: 2px solid #06b697;
+    width: 53%;
+    height: 210px;
+    margin: 0px 60px;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+} 
+.images img {
+    border: 2px solid #06b697;
+    height: 210px;
+    width: 136px;
+    margin: 0px -5px;
+}
+
+.images3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.images3 img {
+    border: 2px solid #06b697;
+    height: 210px;
+    width: 90px;
+    margin: 0px -5px;
+}
